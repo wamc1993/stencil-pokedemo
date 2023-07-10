@@ -1,0 +1,42 @@
+:host {
+  display: block;
+  overflow: hidden;
+}
+
+:host * {
+  color: var(--color);
+  font-family: var(--font);
+}
+
+:host .details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0.6rem;
+}
+
+:host .details p,
+:host .details h2,
+:host .details h3,
+:host .details i {
+  margin: 0;
+  align-self: center;
+  color: var(--color);
+}
+
+:host img {
+  width: 90%;
+}
+
+:host .mote-field {
+  width: 100%;
+  display: inline-flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+:host .mote-field input {
+  flex: 1 1 0;
+  min-width: 0px;
+}

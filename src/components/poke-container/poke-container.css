@@ -1,0 +1,25 @@
+:host {
+  --color: blue;
+  --font: 'Courier New', Courier, monospace;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 100%;
+  padding: 1rem;
+  overflow-y: hidden;
+}
+
+:host .poke-container_row {
+  flex: 1 1 0;
+  width: 100%;
+  min-height: 0px;
+
+  gap: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+:host .poke-container_row > *:first-child {
+  flex-basis: 0;
+}

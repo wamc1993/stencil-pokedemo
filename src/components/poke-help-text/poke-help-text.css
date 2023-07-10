@@ -1,0 +1,15 @@
+:host * {
+  color: var(--color);
+  font-family: var(--font);
+}
+
+.container-component-HelpText .icon-help {
+  width: 12px;
+}
+
+.container-component-HelpText .help-text {
+  font-family: 'Inter-Regular', sans-serif;
+  color: #111;
+  font-size: 12px;
+  line-height: 16px;
+}
